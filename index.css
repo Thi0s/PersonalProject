@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #FFF8DC;
+}
+
+body {
+    background-image: url(http://dota2walls.com/wp-content/uploads/2014/09/tiny-and-io-wallpaper.jpg);
+    background-repeat:no-repeat;
+    background-size: 2000px;
+    background-color:#2F4F4F;
+}
+
+.mini_title {
+    text-align:center;
+    font-size:40px;
+}
+
+ .active {
+     text-align:center;
+    
+ }
+
+ .toplinktext {
+     color:green;
+     font-size:20px;
+     text-decoration:none;
+ }
+ 
+ .toplinktext:hover{
+     color:white;
+      font-weight:Bold;
+ }
+ 
+ .vid{
+     margin:0 auto;
+ }
