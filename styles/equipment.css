@@ -1,0 +1,29 @@
+.equip {
+    text-align:center;
+    border-collapse:collapse;
+    margin:0 auto;
+    font-size:45px;
+    background-color:rgba(255,255,255,0.5);
+    
+}
+
+ .tableborder{
+     border:3px solid black;
+    
+ }
+ 
+ h1 {
+  text-align:center;
+  font-size:70px;
+  color:green;
+  text-shadow: 2px 2px 2px #07f217;
+ }
+ 
+ .beg-items {
+  text-decoration:none;
+  color:black;
+ }
+ 
+ body{
+  background:url(http://i.imgur.com/2jjZP.jpg);
+ }
