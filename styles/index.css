@@ -1,24 +1,36 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
 h1 {
     text-align: center;
     font-size: 70px;
     color: #FFF8DC;
+    padding-bottom:8px;
+    border-bottom:white groove 3px;
 }
 
-body {
+.one-section {
     background-image: url(http://dota2walls.com/wp-content/uploads/2014/09/tiny-and-io-wallpaper.jpg);
     background-repeat:no-repeat;
     background-size: 2000px;
     background-color:#2F4F4F;
+    margin:0;
+    height:550px;
 }
 
 .mini_title {
     text-align:center;
     font-size:40px;
+    padding-bottom:35px;
+    padding-top:20px;
 }
 
  .active {
      text-align:center;
-    
+     padding-top:5px;
+     padding-bottom:5px;
  }
 
  .toplinktext {
@@ -27,11 +39,20 @@ body {
      text-decoration:none;
  }
  
- .toplinktext:hover{
+ .toplinktext:hover {
      color:white;
       font-weight:Bold;
  }
  
- .vid {
-     margin:auto;
+ iframe {
+display:block;
+margin:0 auto;
+     border: 4px solid black;
+     
  }
+
+.two-section {
+    height:550px;
+    background-color:green;
+    
+}
