@@ -25,7 +25,10 @@ h1 {
     font-size:40px;
     padding-bottom:35px;
     padding-top:20px;
+    color:#6CB259;
+    
 }
+
 
  .active {
      text-align:center;
@@ -158,3 +161,5 @@ margin:0 auto;
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 }
+
+/*http://paletton.com/#uid=52H0u0kllllaFw0g0qFqFg0w0aF*/
