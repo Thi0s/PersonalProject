@@ -1,165 +1,86 @@
-html, body {
-    margin:0;
-    padding:0;
+html,body {
+  margin:0;
+  padding:0
 }
 
 h1 {
-    text-align: center;
-    font-size: 70px;
-    color: #FFF8DC;
-    padding-bottom:8px;
-    border-bottom:white groove 3px;
+  text-align:center;
+  font-size:70px;
+  color:#FFF8DC;
+  padding-bottom:8px;
+  border-bottom:#fff groove 3px;
+  font-family:'Megrim', cursive;
 }
 
 .one-section {
-    background-image: url(http://dota2walls.com/wp-content/uploads/2014/09/tiny-and-io-wallpaper.jpg);
-    background-repeat:no-repeat;
-    background-size: 2000px;
-    background-color:#2F4F4F;
-    margin:0;
-    height:630px;
+  background-image:url(http://dota2walls.com/wp-content/uploads/2014/09/tiny-and-io-wallpaper.jpg);
+  background-repeat:no-repeat;
+  background-size:2000px;
+  background-color:#2F4F4F;
+  margin:0;
+  height:630px;
 }
 
 .mini_title {
-    text-align:center;
-    font-size:40px;
-    padding-bottom:35px;
-    padding-top:20px;
-    color:#6CB259;
-    
+  text-align:center;
+  font-size:40px;
+  padding-bottom:35px;
+  padding-top:20px;
+  color:#2D6E12;
 }
 
+/*448F30*/
+.active {
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
 
- .active {
-     text-align:center;
-     padding-top:5px;
-     padding-bottom:5px;
- }
+.toplinktext {
+  color:green;
+  font-size:20px;
+  text-decoration:none;
+}
 
- .toplinktext {
-     color:green;
-     font-size:20px;
-     text-decoration:none;
- }
- 
- .toplinktext:hover {
-     color:white;
-      font-weight:Bold;
- }
- 
- iframe {
-display:block;
-margin:0 auto;
-     border: 4px solid black;
-     
- }
+.toplinktext:hover {
+  color:#fff;
+  font-weight:Bold;
+}
+
+iframe {
+  display:block;
+  margin:0 auto;
+  border:4px solid #164900;
+  margin-top:50px;
+}
 
 .two-section {
-    height:550px;
-    background-color:green;
-    
+  height:550px;
+  background-color:green;
 }
 
- h2 {
-     color:white;
-     text-align:center;
-     font-size:70px;
-     padding-top:10px;
-     font-variant:small-caps;
-     
- }
- 
- body {
-    background:#bf5c71 url('body-bg.jpg');
-}
- 
-.clearfix:after {
-    display:block;
-    clear:both;
-}
- 
-/*----- Menu Outline -----*/
-.menu-wrap {
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
-}
- 
-.menu {
-    width:1000px;
-    margin:0px auto;;
-}
- 
-.menu li {
-    margin:0px;
-    list-style:none;
-    font-family:'Ek Mukta';
-}
- 
-.menu a {
-    transition:all linear 0.15s;
-    color:#919191;
-}
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:#be5b70;
-}
- 
-.menu .arrow {
-    font-size:11px;
-    line-height:0%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#2e2728;
-}
- 
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-    width:160%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
+h2 {
+  color:#fff;
+  text-align:center;
+  font-size:70px;
+  padding-top:10px;
+  font-variant:small-caps;
 }
 
 /*http://paletton.com/#uid=52H0u0kllllaFw0g0qFqFg0w0aF*/
+@media screen and (max-width: 500px) {
+body,header {
+  color:#000;
+}
+}
+
+ .intro {
+     width:70%;
+     margin: 0 auto;
+     color:#76B75B;
+     font-size:20px;
+     margin-top:50px;
+     font-family:'Molengo', sans-serif;
+     line-height:1.15;
+     text-align:center;
+ }

@@ -1,0 +1,66 @@
+ header {
+   text-align: center;
+   color: #003729;
+   font-size: 30px;
+   display: block;
+   background-color: #256F5C;
+   font-family: 'Megrim', cursive;
+   margin-top:-40px;
+   padding-bottom:1px;
+ }
+ 
+ section {
+   background-image: url("../styles/Images/co.png");
+  height: 90em;
+   margin-top:-40px;
+ }
+ 
+ h2 {
+   font-variant: small-caps;
+   text-align: center;
+   padding-top:3px;
+ }
+ 
+ body {
+   background-image: url(triangular.png);
+   margin-left: 0px;
+   width: 100%;
+   margin-top: 0px;
+ }
+ 
+ #spells {
+  background-image:url(http://goo.gl/NpFPo0);
+  height:547px;
+  width:596px;
+  margin: 0 auto;
+  border:#00372E solid 2px;
+ }
+ 
+ .explanation {
+  text-align:center;
+  font-family:'Molengo',sans-serif;
+  color:#6B6A6A;
+  font-size:1.15em;
+  width:50%;
+  margin: auto;
+  margin-top:2em;
+ }
+ 
+ .order {
+  background-image:url(http://goo.gl/jyah4m);
+  width:726px;
+  height:339px;
+  margin:0 auto;
+  margin-top:3em;
+  border:#00372E solid 2px;
+ }
+ 
+ .skillexplanation {
+  color:#6B6A6A;
+  text-align:center;
+  font-size:1.15em;
+  font-family:'Molengo', sans-serif;
+  width:50%;
+  margin: 0 auto;
+  margin-top:2em;
+ }

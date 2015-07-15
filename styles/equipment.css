@@ -1,59 +1,69 @@
 .equip {
-    text-align:center;
-    border-collapse:collapse;
-    margin:0 auto;
-    font-size:45px;
-    background-color:rgba(255,255,255,0.5);
-    margin-top:50px;
+  text-align:center;
+  border-collapse:collapse;
+  margin:0 auto;
+  font-size:45px;
+  background-color:rgba(255,255,255,0.5);
+  margin-top:50px;
+  font-family: 'Molengo', sans-serif;
 }
 
- .tableborder{
-     border:3px solid black;
-    
- }
- 
- h1 {
+.tableborder {
+  border:3px solid #000
+}
+
+h1 {
   text-align:center;
   font-size:70px;
   color:#286C12;
-  text-shadow: 2px 2px 2px #114800;
-  font-variant:small-caps;
- }
- 
- .beg-items {
+  text-shadow:2px 2px 2px #114800;
+  font-variant:small-caps
+}
+
+.beg-items {
   text-decoration:none;
-  color:black;
- }
- 
- body{
+  color:#000
+}
+
+body {
   background:url(http://i.imgur.com/2jjZP.jpg);
- }
- 
-  .toplinktext {
-     color:#114800;
-     font-size:28px;
-     text-decoration:none;
-     background-color:rgba(40,108,18,1);
-     padding-left:5px;
-     padding-right:5px;
-     padding-bottom:3px;
-     padding-top:3px;
-     border-radius:9px;
-     font-weight:normal;
-     font-family:arial;
- }
- 
- .toplinktext:hover {
-      background-color:#114800;
-      color:rgba(40,108,18,1);
- }
- 
-  .active {
-     text-align:center;
-     padding-top:5px;
-     padding-bottom:5px;
-     display:inline;
-     background-color:white;
- }
- 
- 
+  margin-left:0;
+  width:100%
+}
+
+.toplinktext {
+  color:#114800;
+  font-size:28px;
+  text-decoration:none;
+  background-color:rgba(40,108,18,1);
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:3px;
+  padding-top:3px;
+  border-radius:9px;
+  font-weight:400;
+  font-family:arial
+}
+
+.toplinktext:hover {
+  background-color:#114800;
+  color:rgba(40,108,18,1)
+}
+
+.active {
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+  display:inline;
+  background-color:#fff
+}
+
+@media screen and (max-width: 600px) {
+.equip {
+  font-size:20px
+}
+
+h1 {
+  font-size:100px
+}
+}

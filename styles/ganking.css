@@ -6,26 +6,139 @@
  
   h1{
       text-align:center;
-      font-size:60px;
-      color:white;
+      font-size:5em;
+      color:#164900;
+      background-color:#4E9231;
+      padding-bottom:0.1em;
+      padding-top:0.02em;
+      margin-top:0px;
+      font-family: 'Megrim', cursive;
   }
   
-  .map {
+  #map {
       display:block;
+      padding-left:0px;
       margin:0 auto;
-      
+      padding-top:10em;
   }
   
 
   
-  body {
-   background-image:url(http://1.bp.blogspot.com/-gYnSbUYPITE/UrfeW35hJSI/AAAAAAAACA4/g-SoB-XsaTc/s1600/bounty_hunter_ganking_by_xxxhaozhuangxxx-d6yfz7p.png);
-   background-size:120%;
+  section {
+   background-image:url(../styles/Images/dark_embroidery.png);
+   height:100em;
+   margin-top:-54px;
+  }
+
+ .menupic {
+  position:fixed;
+  top:0;
+  margin-top:1em;
+  border-radius:14px;
+  border:grey solid 1px;
+  margin-left:1em;
+ }
+ 
+  .menulist {
+   display:block;
+   margin-top:1px;
+   color:#164900;
+   font-weight:bold;
+   font-family:sans-serif;
+   text-decoration:none;
+   margin:5px;
   }
   
-  .side {
-   background-color:white;
-   position:fixed;
-   top:0;
-   padding-left:1px;
+  .dropdownmenu {
+    opacity:0;
+    text-align: left;
+    margin-right:85%;
+    position:fixed;
+    top:0;
+    margin-top:75px;
+    border-radius:13px;
+    padding-right:5px;
+    margin-left:1em;
+  }
+  
+  .menupic:hover + .dropdownmenu{
+  opacity:1;
+  color:green;
+  background-color:black;
+  border:grey solid 2px;
+ }
+ 
+  .dropdownmenu:hover {
+   opacity:1;
+  color:green;
+  background-color:black;
+  border:grey solid 3px;
+  }
+  
+ .dropdown {
+  color:green;
+ }
+
+ header {
+  margin-bottom:0px;
+ }
+ 
+ ul {
+  padding-left:5px;
+ }
+ 
+ body {
+  margin:0 auto;
+ }
+ 
+  a:hover {
+  color:white;  
+   
+  }
+  
+  .stats {
+   height:194px;
+   width:420px;
+   background-image:url(http://goo.gl/MD7RKr);
+   margin:0 auto;
+   margin-top:2em;
+   border:#4E9231 solid 2px;
+  }
+  
+  h3 {
+   text-align:center;
+   padding-top:0.8em;
+   font-variant:small-caps;
+   font-size:1.5em;
+  }
+  
+  .statdesc {
+   color:#717171;
+   text-align:center;
+   width:50%;
+   margin:0 auto;
+   margin-top:2em;
+   font-size:1.15em;
+   font-family:sans-serif;
+  }
+  
+  #tinyvid {
+   display:block;
+   margin: 0 auto;
+   margin-top:5em;
+  }
+  
+  .viddesc {
+   color:#717171;
+   font-size:1.15em;
+   text-align:center;
+   width:50%;
+   margin:0 auto;
+   font-family:sans-serif;
+   margin-top:2em;
+  }
+  
+  #easteregg {
+   color:#164900;
+   text-decoration:none;
   }

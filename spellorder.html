@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Tiny's Spell Order</title>
-    <link rel="stylesheet" href="spellorder.css" type="text/css"
-  </head>
-  <body>
-      <h1>Ganking</h1>
-  </body>
-  </html>
+
+<head>
+  <title>Tiny's Spell Order</title>
+  <link rel="stylesheet" href="styles/spellorder.css" type="text/css">
+</head>
+
+<body>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Megrim::latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+  
+  
+  <header>
+    <h1>Order to Upgrade Spells</h1>
+  </header>
+
+  <section>
+    <h2>Starting Out</h2>
+    <div id = spells></div>
+    <p class = explanation>These are Tiny's abilities, what you see at the bottom of your screen. Avalanche and Toss are attacks, that do damage and cost mana. Craggy Exterior and Grow are passive, which means you don't activate them, they just give you bonuses. Avalanche does damage and stuns, while Toss launches either another friendly player, a creep, or the person you're attacking up in the air. Avalanche and Toss are almost always used together.</p>
+    <div class = order></div>
+    <p class = skillexplanation>This is the order that you should upgrade your abilities if you're playing lane Tiny. You can slightly deviate depending on the circumstances, but you should try to stick to the path.</p>
+  </section>
+</body>
+
+</html>
